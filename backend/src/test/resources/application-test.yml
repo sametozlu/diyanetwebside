@@ -1,0 +1,43 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:portal;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+  flyway:
+    enabled: false
+  cache:
+    type: simple
+
+app:
+  demo: false
+  jwt:
+    secret: test-secret-key-that-is-at-least-32-chars-long
+    expiration-ms: 3600000
+  cors:
+    origins: http://localhost:3000
+  integrations:
+    aladhan:
+      enabled: false
+      base-url: http://localhost
+      timeout-ms: 1000
+      method: 13
+    alquran:
+      enabled: false
+      base-url: http://localhost
+      timeout-ms: 1000
+      edition-ar: quran-uthmani
+      edition-tr: tr.diyanet
+    hadith:
+      enabled: false
+      base-url: http://localhost
+      timeout-ms: 1000
+      edition: tur-bukhari

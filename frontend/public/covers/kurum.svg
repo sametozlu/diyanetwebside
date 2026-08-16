@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Kurum">
+  <defs>
+    <linearGradient id="bg-kurum" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071f18"/>
+      <stop offset="1" stop-color="#071f18"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg-kurum)"/>
+  <rect x="48" y="48" width="1504" height="804" fill="none" stroke="#c9a227" stroke-width="4"/>
+  <rect x="72" y="72" width="1456" height="756" fill="none" stroke="#f4efe6" stroke-width="1" opacity=".35"/>
+  
+    <rect x="620" y="280" width="360" height="260" fill="#f4efe6" stroke="#c9a227" stroke-width="5"/>
+    <rect x="760" y="430" width="80" height="110" fill="#071f18"/>
+    <rect x="660" y="320" width="50" height="50" fill="#c9a227"/>
+    <rect x="740" y="320" width="50" height="50" fill="#c9a227"/>
+    <rect x="820" y="320" width="50" height="50" fill="#c9a227"/>
+    <rect x="900" y="320" width="50" height="50" fill="#c9a227"/>
+    
+  <rect x="480" y="620" width="640" height="110" rx="8" fill="#f4efe6"/>
+  <text x="800" y="668" text-anchor="middle" fill="#0c3b2e" font-family="Georgia, serif" font-size="42">Kurum</text>
+  <text x="800" y="704" text-anchor="middle" fill="#c9a227" font-family="Georgia, serif" font-size="16" letter-spacing="6">DİJİTAL KAPI</text>
+</svg>

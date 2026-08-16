@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Çocuk">
+  <defs>
+    <linearGradient id="bg-cocuk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#24543f"/>
+      <stop offset="1" stop-color="#071f18"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg-cocuk)"/>
+  <rect x="48" y="48" width="1504" height="804" fill="none" stroke="#f0d78c" stroke-width="4"/>
+  <rect x="72" y="72" width="1456" height="756" fill="none" stroke="#f4efe6" stroke-width="1" opacity=".35"/>
+  
+    <circle cx="800" cy="400" r="90" fill="#f0d78c"/>
+    <g stroke="#f0d78c" stroke-width="10" stroke-linecap="round">
+      <line x1="800" y1="250" x2="800" y2="290"/>
+      <line x1="800" y1="510" x2="800" y2="550"/>
+      <line x1="650" y1="400" x2="690" y2="400"/>
+      <line x1="910" y1="400" x2="950" y2="400"/>
+      <line x1="694" y1="294" x2="722" y2="322"/>
+      <line x1="878" y1="478" x2="906" y2="506"/>
+      <line x1="694" y1="506" x2="722" y2="478"/>
+      <line x1="878" y1="322" x2="906" y2="294"/>
+    </g>
+    
+  <rect x="480" y="620" width="640" height="110" rx="8" fill="#f4efe6"/>
+  <text x="800" y="668" text-anchor="middle" fill="#0c3b2e" font-family="Georgia, serif" font-size="42">Çocuk</text>
+  <text x="800" y="704" text-anchor="middle" fill="#f0d78c" font-family="Georgia, serif" font-size="16" letter-spacing="6">DİJİTAL KAPI</text>
+</svg>

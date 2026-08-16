@@ -1,0 +1,10 @@
+CREATE INDEX idx_news_published_at ON news (published_at DESC);
+CREATE INDEX idx_news_category_id ON news (category_id);
+CREATE INDEX idx_news_featured ON news (featured);
+CREATE INDEX idx_search_index_entity_type ON search_index (entity_type);
+CREATE INDEX idx_search_index_title ON search_index (title);
+CREATE INDEX idx_prayer_times_province_date ON prayer_times (province_id, date);
+CREATE INDEX idx_quran_ayahs_surah ON quran_ayahs (surah_id, number);
+CREATE INDEX idx_fatwas_category ON fatwas (category_id);
+CREATE INDEX idx_events_starts_at ON events (starts_at);
+CREATE INDEX idx_districts_province ON districts (province_id);

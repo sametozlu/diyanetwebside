@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 640" role="img" aria-labelledby="title desc">
+  <title id="title">Diyanet Web portal architecture</title>
+  <desc id="desc">Browser to Next.js frontend, REST rewrite to Spring Boot modular monolith, PostgreSQL via Flyway.</desc>
+  <rect width="920" height="640" fill="#f7f3ec"/>
+  <text x="460" y="42" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#0c3b2e">Conceptual Institutional Portal</text>
+  <text x="460" y="68" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="13" fill="#5e574e">Actual runtime architecture (modular monolith)</text>
+
+  <rect x="320" y="92" width="280" height="56" rx="10" fill="#fffaf3" stroke="#0c3b2e" stroke-width="1.5"/>
+  <text x="460" y="126" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c1917">Browser (TR / EN / AR)</text>
+
+  <line x1="460" y1="148" x2="460" y2="176" stroke="#0c3b2e" stroke-width="2"/>
+  <polygon points="460,176 454,166 466,166" fill="#0c3b2e"/>
+
+  <rect x="220" y="184" width="480" height="92" rx="10" fill="#0c3b2e"/>
+  <text x="460" y="218" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="16" fill="#fffaf3">Next.js 16 App Router</text>
+  <text x="460" y="242" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" fill="#e8d7a8">SSR / ISR · next-intl · TanStack Query · /api rewrite</text>
+  <text x="460" y="260" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" fill="#fffaf3">Port 3000</text>
+
+  <line x1="460" y1="276" x2="460" y2="304" stroke="#0c3b2e" stroke-width="2"/>
+  <polygon points="460,304 454,294 466,294" fill="#0c3b2e"/>
+
+  <rect x="180" y="312" width="560" height="148" rx="10" fill="#fffaf3" stroke="#164a3a" stroke-width="1.5"/>
+  <text x="460" y="340" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="16" fill="#0c3b2e">Spring Boot 4 REST API · Java 21</text>
+  <text x="460" y="362" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" fill="#5e574e">Controllers ’ Services ’ Repositories · JWT admin · OpenAPI</text>
+
+  <rect x="204" y="380" width="120" height="56" rx="8" fill="#164a3a"/>
+  <text x="264" y="414" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" fill="#fffaf3">Auth / Admin</text>
+  <rect x="340" y="380" width="120" height="56" rx="8" fill="#164a3a"/>
+  <text x="400" y="406" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" fill="#fffaf3">Content</text>
+  <text x="400" y="422" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#e8d7a8">News · Pages</text>
+  <rect x="476" y="380" width="120" height="56" rx="8" fill="#164a3a"/>
+  <text x="536" y="406" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" fill="#fffaf3">Religious</text>
+  <text x="536" y="422" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#e8d7a8">Quran · Hadith</text>
+  <rect x="612" y="380" width="108" height="56" rx="8" fill="#164a3a"/>
+  <text x="666" y="406" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" fill="#fffaf3">Local</text>
+  <text x="666" y="422" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#e8d7a8">Prayer · 81 il</text>
+
+  <line x1="460" y1="460" x2="460" y2="492" stroke="#0c3b2e" stroke-width="2"/>
+  <polygon points="460,492 454,482 466,482" fill="#0c3b2e"/>
+
+  <rect x="280" y="500" width="360" height="72" rx="10" fill="#071f18"/>
+  <text x="460" y="532" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="16" fill="#fffaf3">PostgreSQL 16</text>
+  <text x="460" y="554" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" fill="#e8d7a8">Flyway migrations · JPA · full-text search index</text>
+
+  <text x="460" y="608" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" fill="#5e574e">Docker Compose: db · backend :8080 · frontend :3000</text>
+</svg>
